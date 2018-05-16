@@ -19,8 +19,8 @@ function currentLine(katzDeli) {
   } 
   
   for (var i = 0; i < katzDeli.length; i++){
-      var position = i + 1;
-      var names = katzDeli.length[i];
+      var position = i + 1
+      var names = katzDeli.length[i]
       return `The line is currently: + ${position}. + ${name},`;
     }
 }
