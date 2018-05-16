@@ -21,6 +21,6 @@ function currentLine(line) {
     var i = 0;
     var position = i + 1;
     var names = katzDeli.length[i];
-    return currentline.push(`${currentline} + ${position}. ${name},`);
+    return currentline.push(`${currentline} + ${position}. ${names},`);
   }  
 }
