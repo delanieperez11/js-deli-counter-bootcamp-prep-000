@@ -23,10 +23,11 @@ function currentLine(katzDeliLine) {
   
   for (var i = 0; i < katzDeliLine.length; i++){
     var position = (i + 1);
+    var name = katzDeliLine[i];
     if(position === katzDeliLine.length){
-      deliLine += `${position}. ${katzDeliLine[i]} `;
+      deliLine += `${position}. ${name} `;
     } else {
-      deliLine += `${position}. ${katzDeliLine[i]}, `;
+      deliLine += `${position}. ${name},`;
     }
   }
     return deliLine;
