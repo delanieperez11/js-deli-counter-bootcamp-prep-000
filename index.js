@@ -24,6 +24,6 @@ function currentLine(katzDeliLine) {
   for (var i = 0; i < katzDeliLine.length; i++){
     deliLine = deliLine + `${(i + 1)}. ${deliLine[i]}, `;
     }
+    return deliLine;
   }
-  return currentLine;
 }
