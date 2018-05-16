@@ -21,7 +21,7 @@ function currentLine(line) {
     var currentline = "The line is currently:";
     var position = i + 1;
     var names = katzDeli.length[i];
-    return `${currentline} + ${position} + ${names} ","`;
+    return `${currentline} + ${position}. ${name},`;
   }  
   }
 }
