@@ -20,7 +20,6 @@ function currentLine(line) {
   var currentline = "The line is currently:";
   
   for(let i = 0; i < katzDeli.length, i++;){
-    return currentline ${[i] + name}`;
-  }
+    var position = 
   }
 }
