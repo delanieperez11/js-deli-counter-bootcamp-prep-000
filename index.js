@@ -15,8 +15,8 @@ function nowServing(katzDeli){
 
 function currentLine(line) {
   if(katzDeli.length === 0) {
-  return "There is nobody waiting to be served!";
-  
+  return "The line is currently empty.";
+  } else {
   for(let i = 0; i < katzDeli.length, i++;){
     return `The line is currently: ${[i] + name}`;
   }
