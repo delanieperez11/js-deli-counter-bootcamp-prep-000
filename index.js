@@ -22,7 +22,7 @@ function currentLine(katzDeliLine) {
   var deliLine = "The line is currently: ";
   
   for (var i = 0; i < katzDeliLine.length; i++){
-    var position = (i + 1)
+    var position = (i + 1);
     if(position === katzDeliLine.length){
       deliLine += `${position}. ${katzDeliLine[i]} `;
     } else {
