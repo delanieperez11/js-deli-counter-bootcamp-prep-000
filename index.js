@@ -20,7 +20,7 @@ function currentLine(katzDeli) {
     var i = 0;
     var position = i + 1;
     for (i = 0; i < katzDeli.length; i++){
-      currentLine.push(`The line is currently: + ${position}. + ${name},`);
+      return `The line is currently: + ${position}. + ${name},`;
     }
   }  
   return currentLine;
