@@ -21,6 +21,6 @@ function currentLine(line) {
   
   for(let i = 0; i < katzDeli.length, i++;){
     var position = i + 1;
-    var name = katzDeli.length[i]
+    var names = katzDeli.length[i]
   }
 }
