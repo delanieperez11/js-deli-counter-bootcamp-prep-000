@@ -28,7 +28,7 @@ function currentLine(katzDeliLine) {
     } else {
       deliLine += `${position}. ${katzDeliLine[i]}, `;
     }
-    }
-    return deliLine;
   }
+    return deliLine;
+    }
 }
