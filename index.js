@@ -14,8 +14,8 @@ function nowServing(katzDeli){
 }
 
 function currentLine(line) {
-  for(let i = 0; i < katzDeli.length, i++){
-    return 
+  for(let i = 0; i < katzDeli.length, i++;){
+    return `The line is currently: ${[i] + name}`;
   }
-  
+  }
 }
