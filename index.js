@@ -15,5 +15,6 @@ function nowServing(katzDeli){
 
 function currentLine(line) {
   var i = 0;
-  for()
+  for(i < katzDeli.length, i++;
+  
 }
