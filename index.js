@@ -23,4 +23,5 @@ function currentLine(katzDeliLine) {
     return `The line is currently: ${position}. ${katzDeliLine[i]},`;
     }
   }
+  return currentLine;
 }
